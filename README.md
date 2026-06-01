@@ -19,8 +19,6 @@ A data science project that segments mall customers into 5 actionable business p
 - [Business Recommendations](#business-recommendations)
 - [Results & Insights](#results--insights)
 - [Technologies](#technologies)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Future Work](#future-work)
 - [Author](#author)
 
@@ -237,62 +235,20 @@ Age: 44 | Income: 89.8k GHS | Spending: 18.5/100 [LOWEST]
 
 ---
 
-## 🚀 Usage
+## 🚀 Reproduce the Analysis
 
-### Prerequisites
-```bash
-pip install pandas scikit-learn numpy matplotlib seaborn
+This project uses K-Means clustering from scikit-learn. 
+Key files:
+- `notebooks/02_clustering_model.ipynb` — Full clustering implementation
+- `scripts/kmeans_clustering.py` — Reusable clustering script
+
+**Requirements**: Python 3.8+, pandas, scikit-learn, matplotlib
+
+For your own dataset:
+```python
+from scripts.kmeans_clustering import segment_customers
+clusters = segment_customers(your_data, n_clusters=5)
 ```
-
-### Running the Analysis
-```bash
-# Load data and perform clustering
-python clustering_analysis.py
-
-# Generate cluster profiles
-python profile_clusters.py
-
-# Create visualizations
-python visualize_segments.py
-```
-
-### Expected Output
-- `cluster_profiles.csv` — Segment characteristics
-- `business_recommendations.md` — Strategic insights
-- `visualizations/` — Charts and diagrams
-
----
-
-## 📂 Project Structure
-
-```
-mall-customer-segmentation/
-│
-├── README.md                          # This file
-├── business_segmentation.md           # Full business analysis
-│
-├── data/
-│   └── mall_customers.csv             # Raw customer data (200 rows)
-│
-├── notebooks/
-│   ├── 01_exploratory_analysis.ipynb  # EDA & data profiling
-│   ├── 02_clustering_model.ipynb      # K-Means implementation
-│   └── 03_business_insights.ipynb     # Segment profiling & translation
-│
-├── scripts/
-│   ├── data_preprocessing.py          # Data cleaning & scaling
-│   ├── kmeans_clustering.py           # Clustering algorithm
-│   ├── profile_clusters.py            # Segment characterization
-│   └── visualize_segments.py          # Charts & dashboards
-│
-├── outputs/
-│   ├── cluster_profiles.csv           # Cluster centroids & stats
-│   ├── customer_segments.csv          # Labeled customers by cluster
-│   └── visualizations/                # PNG charts
-│
-└── requirements.txt                   # Dependencies
-```
-
 ---
 
 ## 🔮 Future Work
@@ -357,7 +313,7 @@ This project is open source and available under the MIT License.
 
 **Priscilla Naadu Lartey**  
 Data Scientist | Big Data Analytics | AI/ML Engineering  
-📧 [LinkedIn](https://linkedin.com) | 🐙 [GitHub](https://github.com/PriscillaLartey)
+📧 [LinkedIn](https://www.linkedin.com/in/larteypriscilla) | 🐙 [GitHub](https://github.com/PriscillaLartey)
 
 ---
 
