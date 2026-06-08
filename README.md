@@ -24,7 +24,7 @@ A data science project that segments mall customers into 5 actionable business p
 
 ---
 
-## Project Overview
+##📶 Project Overview
 
 This project applies **unsupervised machine learning** (K-Means clustering) to segment mall customers based on demographic and behavioral features. The analysis bridges the gap between technical data science and actionable business strategy, providing clear segmentation profiles and strategic recommendations for retail operations.
 
