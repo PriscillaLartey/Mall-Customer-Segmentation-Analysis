@@ -24,7 +24,7 @@ A data science project that segments mall customers into 5 actionable business p
 
 ---
 
-##📶 Project Overview
+## Project Overview
 
 This project applies **unsupervised machine learning** (K-Means clustering) to segment mall customers based on demographic and behavioral features. The analysis bridges the gap between technical data science and actionable business strategy, providing clear segmentation profiles and strategic recommendations for retail operations.
 
@@ -220,7 +220,7 @@ Age: 44 | Income: 89.8k GHS | Spending: 18.5/100 [LOWEST]
 
 ---
 
-## 🛠 Technologies
+## Technologies
 
 **Data Analysis & ML:**
 - Python 3.8+
@@ -235,12 +235,11 @@ Age: 44 | Income: 89.8k GHS | Spending: 18.5/100 [LOWEST]
 
 ---
 
-## 🚀 Reproduce the Analysis
+## Reproduce the Analysis
 
 This project uses K-Means clustering from scikit-learn. 
 Key files:
 - `notebooks/02_clustering_model.ipynb` — Full clustering implementation
-- `scripts/kmeans_clustering.py` — Reusable clustering script
 
 **Requirements**: Python 3.8+, pandas, scikit-learn, matplotlib
 
@@ -251,7 +250,7 @@ clusters = segment_customers(your_data, n_clusters=5)
 ```
 ---
 
-## 🔮 Future Work
+## Future Work
 
 ### Model Enhancements
 - [ ] Test alternative clustering algorithms (DBSCAN, Hierarchical)
@@ -274,7 +273,7 @@ clusters = segment_customers(your_data, n_clusters=5)
 
 ---
 
-## 📊 Key Metrics to Track
+## Key Metrics to Track
 
 **Segment Performance:**
 - Visit frequency by segment
