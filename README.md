@@ -10,7 +10,7 @@ A data science project that segments mall customers into 5 actionable business p
 
 ## 📋 Table of Contents
 
-- [Project Overview](#📊-project-overview)
+- [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
@@ -24,7 +24,7 @@ A data science project that segments mall customers into 5 actionable business p
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This project applies **unsupervised machine learning** (K-Means clustering) to segment mall customers based on demographic and behavioral features. The analysis bridges the gap between technical data science and actionable business strategy, providing clear segmentation profiles and strategic recommendations for retail operations.
 
@@ -32,7 +32,7 @@ This project applies **unsupervised machine learning** (K-Means clustering) to s
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 Mall management needs to understand their customer base to:
 - Optimize **tenant mix and floor space allocation**
@@ -44,7 +44,7 @@ Traditional demographic analysis (age, income) fails to explain spending behavio
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 | Feature | Type | Range | Notes |
 |---------|------|-------|-------|
@@ -57,7 +57,7 @@ Traditional demographic analysis (age, income) fails to explain spending behavio
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. **Data Exploration & Preprocessing**
 - Descriptive statistics and distribution analysis
@@ -82,7 +82,7 @@ Traditional demographic analysis (age, income) fails to explain spending behavio
 
 ---
 
-## 🎯 Key Findings
+##  Key Findings
 
 ### 🔴 **Income ≠ Spending** (Non-Linear Relationship)
 
@@ -149,7 +149,7 @@ Age: 44 | Income: 89.8k GHS | Spending: 18.5/100 [LOWEST]
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 ### **Immediate Actions** (0-3 months)
 
@@ -186,7 +186,7 @@ Age: 44 | Income: 89.8k GHS | Spending: 18.5/100 [LOWEST]
 
 ---
 
-## 📈 Results & Insights
+## Results & Insights
 
 ### Cluster Characteristics Summary
 
@@ -292,7 +292,7 @@ clusters = segment_customers(your_data, n_clusters=5)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feedback and improvements welcome! Areas for contribution:
 - Additional feature engineering
@@ -303,13 +303,13 @@ Feedback and improvements welcome! Areas for contribution:
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
 ---
 
-## 👤 Author
+## Author
 
 **Priscilla Naadu Lartey**  
 Data Scientist | Big Data Analytics | AI/ML Engineering  
@@ -317,7 +317,7 @@ Data Scientist | Big Data Analytics | AI/ML Engineering
 
 ---
 
-## 📚 References & Resources
+## References & Resources
 
 - [K-Means Clustering - Scikit-Learn](https://scikit-learn.org/stable/modules/clustering.html#k-means)
 - [Elbow Method for Optimal Clusters](https://en.wikipedia.org/wiki/Elbow_method_(clustering))
@@ -326,7 +326,7 @@ Data Scientist | Big Data Analytics | AI/ML Engineering
 
 ---
 
-## 💬 Questions?
+## Questions?
 
 Feel free to open an issue or reach out with questions about:
 - Clustering methodology
