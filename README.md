@@ -10,7 +10,7 @@ A data science project that segments mall customers into 5 actionable business p
 
 ## 📋 Table of Contents
 
-- [Project Overview](#Project-Overview)
+- [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
@@ -18,7 +18,7 @@ A data science project that segments mall customers into 5 actionable business p
 - [Customer Segments](#customer-segments)
 - [Business Recommendations](#business-recommendations)
 - [Results & Insights](#results--insights)
-- [Technologies](#technologies)
+- [Technologies](#-technologies)
 - [Future Work](#future-work)
 - [Author](#author)
 
